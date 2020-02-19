@@ -46,3 +46,7 @@ i{
   #section2{
     font-family: Recipekorea;
   }
+  
+  img {style="width: 150px; height: 150px;"}
+  
+  .pt20 {style="padding-top: 20px;"}
