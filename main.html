@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <title>Scrolling Nav - Start Bootstrap Template</title>
 
   <!-- Bootstrap core CSS -->
@@ -15,16 +14,31 @@
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
-
+  <style>
+    #deck1{
+      margin-bottom: 10px;
+    }
+    #deck2{
+      margin-bottom: 10px;
+    }
+    #deck3{
+      margin-bottom: 10px;
+    }
+    .btn{
+      width: 60%;
+      height: 20%;
+      font-size: 3px;
+    }
+  </style>
 </head>
 
 <body id="page-top">
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -55,7 +69,9 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>About this page</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so
+            you can use it as a boilerplate or starting point for you own landing page designs! This template features:
+          </p>
           <ul>
             <li>Clickable nav links that smooth scroll to page sections</li>
             <li>Responsive behavior when clicking nav links perfect for a one page website</li>
@@ -66,49 +82,179 @@
       </div>
     </div>
   </section>
-
+  <div id= "deck1" class="card-deck">
+    <!-- <div class="card bg-primary">
+      <div class="card-body text-center">
+        <p class="card-text">물병자리</p>
+      </div>
+    </div> -->
+    <div class="card w-50 my-3 mx-auto">
+      <img class="card-img-top" src="https://cdn.pixabay.com/photo/2012/09/04/21/20/penguin-56101__480.jpg"
+        alt="물병자리">
+      <div class="card-body">
+        <h4 class="card-title">물병자리</h4>
+        <p class="card-text">1.20 ~ 2.18</p>
+        <a href="#" class="btn btn-primary stretched-link">정보 더 보기</a>
+      </div>
+    <div class="card bg-warning">
+      <div class="card-body text-center">
+        <p class="card-text">물고기자리</p>
+      </div>
+    </div>
+    <div class="card bg-success">
+      <div class="card-body text-center">
+        <p class="card-text">양자리</p>
+      </div>
+    </div>
+    <div class="card bg-danger">
+      <div class="card-body text-center">
+        <p class="card-text">황소자리</p>
+      </div>
+    </div>
+  </div>
+  <div id= "deck2" class="card-deck">
+    <div class="card bg-primary">
+      <div class="card-body text-center">
+        <p class="card-text">쌍둥이자리</p>
+      </div>
+    </div>
+    <div class="card bg-warning">
+      <div class="card-body text-center">
+        <p class="card-text">게자리</p>
+      </div>
+    </div>
+    <div class="card bg-success">
+      <div class="card-body text-center">
+        <p class="card-text">사자자리</p>
+      </div>
+    </div>
+    <div class="card bg-danger">
+      <div class="card-body text-center">
+        <p class="card-text">처녀자리</p>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card bg-primary">
+      <div class="card-body text-center">
+        <p class="card-text">천칭자리</p>
+      </div>
+    </div>
+    <div class="card bg-warning">
+      <div class="card-body text-center">
+        <p class="card-text">전갈자리</p>
+      </div>
+    </div>
+    <div class="card bg-success">
+      <div class="card-body text-center">
+        <p class="card-text">사수자리</p>
+      </div>
+    </div>
+    <div class="card bg-danger">
+      <div class="card-body text-center">
+        <p class="card-text">염소자리</p>
+      </div>
+    </div>
+  </div>
+  <div id= "deck3" class="card-deck">
+    <div class="card w-50 my-3 mx-auto">
+      <img class="card-img-top" src="https://cdn.pixabay.com/photo/2012/09/04/21/20/penguin-56101__480.jpg"
+        alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">펭귄</h4>
+        <p class="card-text">펭귄은 펭펭</p>
+        <a href="#" class="btn btn-primary stretched-link">펭귄 보기</a>
+        <!-- stretched-link : 카드 전체로 버튼 링크 확장 (카드 자체를 버튼으로 쓰기) -->
+      </div>
+      <div class="card w-50 my-3 mx-auto">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2012/09/04/21/20/penguin-56101__480.jpg"
+          alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">펭귄</h4>
+          <p class="card-text">펭귄은 펭펭</p>
+          <a href="#" class="btn btn-primary stretched-link">펭귄 보기</a>
+          <!-- stretched-link : 카드 전체로 버튼 링크 확장 (카드 자체를 버튼으로 쓰기) -->
+        </div>
+      </div>
+      <div class="card w-50 my-3 mx-auto">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2012/09/04/21/20/penguin-56101__480.jpg"
+          alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">펭귄</h4>
+          <p class="card-text">펭귄은 펭펭</p>
+          <a href="#" class="btn btn-primary stretched-link">펭귄 보기</a>
+          <!-- stretched-link : 카드 전체로 버튼 링크 확장 (카드 자체를 버튼으로 쓰기) -->
+        </div>
+      </div>
+      <div class="card w-50 my-3 mx-auto">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2012/09/04/21/20/penguin-56101__480.jpg"
+          alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">펭귄</h4>
+          <p class="card-text">펭귄은 펭펭</p>
+          <a href="#" class="btn btn-primary stretched-link">펭귄 보기</a>
+          <!-- stretched-link : 카드 전체로 버튼 링크 확장 (카드 자체를 버튼으로 쓰기) -->
+        </div>
+      </div>
+      <div class="card w-50 my-3 mx-auto">
+        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2012/09/04/21/20/penguin-56101__480.jpg"
+          alt="Card image">
+        <div class="card-body">
+          <h4 class="card-title">펭귄</h4>
+          <p class="card-text">펭귄은 펭펭</p>
+          <a href="#" class="btn btn-primary stretched-link">펭귄 보기</a>
+          <!-- stretched-link : 카드 전체로 버튼 링크 확장 (카드 자체를 버튼으로 쓰기) -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
   <section id="services" class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita
+            quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore
+            ut velit dignissimos.</p>
         </div>
       </div>
     </div>
-  </section>
 
-  <section id="contact">
-     <div class="container">
+    <section id="contact">
+      <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <div class="santa"></div>
-              <h2>Contact us</h2>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Verhhho odiox fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+            <h2>Contact us</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Verhhho odiox fugiat voluptatem
+              dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa
+              exercitationem, in, quo totam.</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <!-- 부트스트랩 템플릿 출처 : https://startbootstrap.com/previews/scrolling-nav/ -->      
-      <p class="m-0 text-center text-white">부트스트랩 템플릿 출처 - <a href="https://startbootstrap.com/previews/scrolling-nav/">startbootstrap</a></p>
-    </div>
-    <!-- /.container -->
-  </footer>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <!-- 부트스트랩 템플릿 출처 : https://startbootstrap.com/previews/scrolling-nav/ -->
+        <p class="m-0 text-center text-white">부트스트랩 템플릿 출처 - <a
+            href="https://startbootstrap.com/previews/scrolling-nav/">startbootstrap</a></p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
 
