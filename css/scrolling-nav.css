@@ -13,9 +13,10 @@ section {
 
 .santa {
   height: 600px;
-  /* background-image: url(c:/web_dev/startbootstrap-scrolling-nav-gh-pages/산타1.png)
+  /* background-image: url(산타1.png)
   background-attachment: fixed;
-  background-position: top right;
+  background-position: bottom right;
   background-repeat: no-repeat;
  .  */
-  background: white url(산타1.png) fixed top right no-repeat;
+  background: white url(../산타1.png) fixed right bottom no-repeat;
+}
