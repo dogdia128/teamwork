@@ -57,3 +57,54 @@ i{
     width: 50%; 
     margin: 0 auto;
   }
+
+
+    /* Chrome 기준 갤럭시s5,iphone5부터 iphoneX 기기 지원*/
+    @media (max-width: 500px) {
+      header div {
+        font-size: 2em;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+
+      header {
+        width: 100%;
+        height: 275px;
+        font-size: small !important;
+        padding-top: 48px;
+      }
+
+      header div h1 {
+        font-size: 0.9em !important;
+      }
+
+      header div p {
+        font-size: 0.3em !important;
+      }
+    }
+  /* ipad ipad pro 기기 지원 */
+    @media (min-width:700px) and (max-width: 1024px) {
+      header div {
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+
+      header {
+        width: 100%;
+        height: 275px;
+        font-size: small !important;
+        padding-top: 48px;
+      }
+
+      header div h1 {
+        font-size: 1.2em !important;
+      }
+
+      header div p {
+        font-size: 0.6em !important;
+      }
+
+      section div h4 {
+        font-size: 0.9rem !important;
+      }
+    }
