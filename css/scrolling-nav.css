@@ -3,23 +3,11 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-header {
-}
-
 section {
   padding: 150px 0;
 }
 
-.santa {
-  height: 600px;
-  /* background-image: url(산타1.png)
-  background-attachment: fixed;
-  background-position: bottom right;
-  background-repeat: no-repeat;
- .  */
-  background: white url(../산타1.png) fixed right bottom no-repeat;
-}
-
+/* 상단 헤더부분의 배경이미지를 지정해주는 그룹태그 */
 .bgimg{
   background-image: url(https://cdn.pixabay.com/photo/2018/01/15/15/20/woman-3084129_1280.jpg);
 }
@@ -27,6 +15,7 @@ i{
   font-size: 10px;
   
 }
+/* 하단부 운세보기부분 (섹션2그룹)에 적용할 글씨체  */
 @font-face { 
   font-family: 'Recipekorea'; 
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') 
@@ -34,6 +23,8 @@ i{
   font-weight: normal; 
   font-style: normal; 
   }
+
+  /* 해당html에 전반적으로 적용할 글씨체 */
 @font-face { 
   font-family: 'KOMACON'; 
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/KOMACON.woff') 
@@ -50,9 +41,11 @@ i{
   img {style="width: 150px; height: 150px;"}
   
   .pt20 {style="padding-top: 20px;"}
-
+/* 부수적인 내용(별자리 날짜)등의 글씨를 다른 글씨보다 작게 출력 */
   .fs {font-size: 16px;}
 
+  /* 하단부 footer위의 섹션을 본문과는 다른 글씨체로 적용하기위해
+  앵커태그로 따로 설정 */
   #section2form{
     width: 50%; 
     margin: 0 auto;
